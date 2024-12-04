@@ -1,0 +1,64 @@
+
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1 {color: white;
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 80px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.box {
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    border-radius: 10px;
+    border: black solid 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#breakfast {
+    background-color: #ffcc00;
+}
+
+#vegatables {
+    background-color: #86b300;
+}
+
+#fastfood {
+    background-color: #ff9933;
+}
+
+#pizza{
+    background-color: #cc3300;
+}
+
+#chinesefood {
+    background-color: #009999;
+}

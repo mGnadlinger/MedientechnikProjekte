@@ -1,0 +1,11 @@
+
+h1 {font-family: Tahoma;
+    font-size: 150;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+strong {font-style: italic;
+        font-weight: bold;
+}
