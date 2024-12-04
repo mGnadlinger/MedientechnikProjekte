@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Attack Characters</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <script src="./JS/javascript.js" defer></script>
+</head>
+
+<body id="content">
+    <div id="inputName">
+        <h3 id="playerHeadline">Player 1:</h3>
+        <input type="text" name="name_player1" id="name_player1" class="playerNames">
+    </div>
+
+    <h2 id="chooseHeadline">Choose your character</h2>
+
+    <div id="diceBoxPlayer"></div>
+    <div id="scoreBox"></div>
+    
+
+
+    <main id="characters">
+        <div id="mario" class="character" onclick="mario()">
+            <h2 id="marioName">Mario</h2>
+            <div id="marioimage"><img src="./Images/Mario.png" alt="Mario" class="characterPicture"></div>
+            <div class="row">
+                <p>10</p>
+                <img src="./Images/GreenMushroom.png" alt="Grüner Pilz aus Mario" class="Item">
+            </div>
+            <div class="row">
+                <p>3</p>
+                <img src="./Images/Kugelwilli.webp" alt="Kugelwilli aus Mario" class="Item">
+            </div>
+        </div>
+
+        <div id="peach" class="character" onclick="peach()">
+            <h2 id="peachName">Peach</h2>
+            <div id="peachimage"><img src="./Images/Peach.webp" alt="Peach" class="characterPicture"></div>
+            <div class="row">
+                <p>13</p>
+                <img src="./Images/GreenMushroom.png" alt="Grüner Pilz aus Mario" class="Item">
+            </div>
+            <div class="row">
+                <p>2</p>
+                <img src="./Images/Kugelwilli.webp" alt="Kugelwilli aus Mario" class="Item">
+            </div>
+        </div>
+
+        <div id="luigi" class="character" onclick="luigi()">
+            <h2 id="luigiName">Luigi</h2>
+            <div id="luigiimage"><img src="./Images/Luigi.webp" alt="Luigi" class="characterPicture"></div>
+            <div class="row">
+                <p>15</p>
+                <img src="./Images/GreenMushroom.png" alt="Grüner Pilz aus Mario" class="Item">
+            </div>
+            <div class="row">
+                <p>1</p>
+                <img src="./Images/Kugelwilli.webp" alt="Kugelwilli aus Mario" class="Item">
+            </div>
+        </div>
+
+        <div id="bowser" class="character" onclick="bowser()">
+            <h2 id="bowserName">Bowser</h2>
+            <div id="bowserimage"><img src="./Images/Bowser.png" alt="Bowser" class="characterPicture"></div>
+            <div class="row">
+                <p>5</p>
+                <img src="./Images/GreenMushroom.png" alt="Grüner Pilz aus Mario" class="Item">
+            </div>
+            <div class="row">
+                <p>4</p>
+                <img src="./Images/Kugelwilli.webp" alt="Kugelwilli aus Mario" class="Item">
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+@font-face {
+    font-family: AmongUs;
+    src: url("../Fonts/AmongUs/Impostograph-Regular.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: Mono;
+    src: url("../Fonts/vcr-osd-mono/VCR_OSD_MONO_1.001.ttf") format('TrueType');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Mono;
+    background: url("../Images/wallpaper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 800%;
+    margin: 2% auto;
+    color: white;
+    text-align: center;
+    font-family: AmongUs;
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+        transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand-fwd-top {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+        transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+h2 {
+    color: white;
+    font-size: 200%;
+}
+
+h3 {
+    color: white;
+    margin-top: 15%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#slide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 50%;
+    font-family: AmongUs;
+    font-size: 150%;
+    letter-spacing: 0.1vw;
+    outline: none;
+}
+
+input:focus {
+    background-color: rgb(184, 184, 184);
+}
+
+
+img {
+    width: 12vw;
+}
+
+#previous1,
+#previous2 {
+    clip-path: polygon(45% 0, 20% 50%, 45% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: white;
+    width: 3vw;
+    height: 3vw;
+}
+
+#next1,
+#next2 {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 55% 100%, 80% 51%, 55% 0);
+    background-color: white;
+    width: 3vw;
+    height: 3vw;
+}
+
+.box {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 12px 5px white;
+    }
+
+    to {
+        transform: scale(1.3);
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 12px 5px white;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.icon {
+    width: 8vw;
+}
+
+#winnerBox .row img {
+    width: 13vw;
+}
+
+.button {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    font-family: AmongUs;
+    letter-spacing: 0.1vw;
+    border-radius: 15px;
+    font-size: 200%;
+    margin: 0vw auto;
+    display: none;
+}
+
+.button h3,
+.button a,
+#startButton {
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover,
+#startButton:hover {
+    cursor: pointer;
+}
+
+#startButton {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    font-family: AmongUs;
+    letter-spacing: 0.1vw;
+    border-radius: 15px;
+    font-size: 200%;
+    margin: 0vw auto;
+}
+
+#message {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-top: 2vw;
+    opacity: 0;
+}
+
+@keyframes fadeInAndOut {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#scorePlayer1 {
+    position: absolute;
+    top: 5vw;
+    left: 4vw;
+}
+
+#scorePlayer2 {
+    position: absolute;
+    top: 5vw;
+    right: 4vw;
+}
+
+.score {
+    padding: 0.1vw;
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 15%;
+    display: none;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tak Toe</title>
+    <script src="./JS/javascript.js" defer></script>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+
+    <h1>TIC TAC TOE</h1>
+
+    <div id="scorePlayer1" class="score"> </div>
+
+
+    <div id="slide">
+        <div class="column">
+            <h3 id="chooseCharacter1">Choose a character and <br> click enter to submit</h3>
+            <div class="row">
+                <div id="previous1" onclick="previousPlayer1()"></div>
+                <div id="box1" class="character"><img src="" id="img1" alt="Among Us"></div>
+                <div id="next1" onclick="nextPlayer1()"></div>
+            </div>
+            <input type="text" placeholder="Enter your Name" id="player1Name" name="playerName1">
+            <h3 id="player1"></h3>
+        </div>
+
+        <div class="column">
+            <div id="grid"></div>
+            <div id="message"><p>Sorry, this field is already occupied. Please choose another one.</p></div>
+        </div>
+
+
+        <div class="column">
+            <h3 id="chooseCharacter2">Choose a character and <br> click enter to submit</h3>
+            <div class="row">
+                <div id="previous2" onclick="previousPlayer2()"></div>
+                <div id="box2" class="character"><img src="" id="img2" alt="Among Us"></div>
+                <div id="next2" onclick="nextPlayer2()"></div>
+            </div>
+            <input type="text" placeholder="Enter your Name" id="player2Name" name="playerName2">
+            <h3 id="player2"></h3>
+
+        </div>
+    </div>
+
+    <div id="scorePlayer2" class="score"></div>
+
+
+    <div id="winnerBox" class="winnerBox">
+
+    </div>
+
+    <div id="newGame" class="button" onclick="newGame()">
+        <h3>Start a new Game</h3>
+    </div>
+    <div id="reset" class="button"><a href="./Startseite.html">Quit the game</a></div>
+
+
+</body>
+
+</html>

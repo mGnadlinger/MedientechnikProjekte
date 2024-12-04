@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bildercollage 4</title>
+	<meta name="description" content="Bildercollage">
+	<script>let counter = 1;
+		let htmlString = '';
+		
+        window.addEventListener('DOMContentLoaded', (event) => {
+            for (let i = 1; i <= 24; i++) {
+                const link = document.createElement('link');
+                link.rel = 'preload';
+                link.href = `https://picsum.photos/500?random=${i}`;
+                link.as = 'image';
+                document.head.appendChild(link);
+            }
+            
+            collage(); // initialisiere die Collage
+        });
+		
+		function showGrid(boxNumber, imgNumber) {
+			htmlString = `<div class="box${boxNumber} boxes" id="box${boxNumber}">`
+			for (let i = 1; i <= imgNumber; i++) {
+				htmlString += `<div class="box${boxNumber}_img${i}"><img src="https://picsum.photos/500?random=${counter+i}" alt="Galeriebild"></div>`
+				counter++;
+			}
+			htmlString += `</div>`
+			document.getElementById('content').innerHTML = htmlString;
+		}
+		
+		collage()
+		
+		function collage() {
+			let string = ''
+		string = `<h2>Wähle eine Collage</h2>`
+		string += `<div class="box1 boxes" onclick="showGrid(1,7)">`
+		for (let j = 1; j < 8; j++) {
+			string += `<div class="box1_img${j}"><img src="https://picsum.photos/500?random=${(counter++)}" alt="Galeriebild"></div>` 
+		}
+		string += `</div>`
+		
+		
+		string += `<div class="box2 boxes" onclick="showGrid(2,8)">`
+		for (let j = 1; j < 9; j++) {
+			string += `<div class="box2_img${j}"><img src="https://picsum.photos/500?random=${(counter++)}" alt="Galeriebild"></div>` 
+		}
+		string += `</div>`
+		
+		
+		string += `<div class="box3 boxes" onclick="showGrid(3,9)">`
+		for (let j = 1; j < 10; j++) {
+			string += `<div class="box3_img${j}"><img src="https://picsum.photos/500?random=${(counter++)}" alt="Galeriebild"></div>` 
+		}
+		string += `</div>`   
+		
+		document.getElementById('row').innerHTML = string;
+		counter = 1;
+		}</script>
+
+	<style>
+		/* setting background-image */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: rgb(34, 34, 34);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* headline */
+header {
+	text-align: center;
+	padding: 1.5% 0;
+	margin: 0 0 2% 0;
+	background-color: #000;
+	color: whitesmoke;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	border-bottom: 3px solid whitesmoke;
+}
+
+header h1 {
+	font-size: 300%;
+	margin: 0;
+	font-weight: normal;
+}
+
+/* galerie */
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.flex-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.flex-container>div {
+	width: 33%;
+	padding: 1%;
+}
+
+.flex-container>div img {
+	display: block;
+	width: 100%;
+}
+
+#row {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 3% auto 0 auto;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#box1,
+#box2,
+#box3 {
+	width: 25vw;
+	height: 20vw;
+	margin: 0 auto;
+}
+
+.boxes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	margin: 2%;
+	width: 13vw;
+	height: 11vw;
+}
+
+
+.box1 {
+	grid-template-areas:
+		"box1_img1 box1_img3 box1_img3 box1_img3"
+		"box1_img1 box1_img3 box1_img3 box1_img3"
+		"box1_img2 box1_img2 box1_img4 box1_img5"
+		"box1_img2 box1_img2 box1_img6 box1_img7";
+}
+
+.box1_img1 {
+	grid-area: box1_img1;
+}
+
+.box1_img2 {
+	grid-area: box1_img2;
+}
+
+.box1_img3 {
+	grid-area: box1_img3;
+}
+
+.box1_img4 {
+	grid-area: box1_img4;
+}
+
+.box1_img5 {
+	grid-area: box1_img5;
+}
+
+.box1_img6 {
+	grid-area: box1_img6;
+}
+
+.box1_img7 {
+	grid-area: box1_img7;
+}
+
+
+.box2 {
+	grid-template-areas:
+		"box2_img1 box2_img2 box2_img2 box2_img3"
+		"box2_img4 box2_img2 box2_img2 box2_img6"
+		"box2_img4 box2_img5 box2_img5 box2_img6"
+		"box2_img7 box2_img5 box2_img5 box2_img8";
+}
+
+.box2_img1 {
+	grid-area: box2_img1;
+}
+
+.box2_img2 {
+	grid-area: box2_img2;
+}
+
+.box2_img3 {
+	grid-area: box2_img3;
+}
+
+.box2_img4 {
+	grid-area: box2_img4;
+}
+
+.box2_img5 {
+	grid-area: box2_img5;
+}
+
+.box2_img6 {
+	grid-area: box2_img6;
+}
+
+.box2_img7 {
+	grid-area: box2_img7;
+}
+
+.box2_img8 {
+	grid-area: box2_img8;
+}
+
+
+.box3 {
+	grid-template-areas:
+		"box3_img1 box3_img2 box3_img3 box3_img4"
+		"box3_img5 box3_img5 box3_img5 box3_img5"
+		"box3_img5 box3_img5 box3_img5 box3_img5"
+		"box3_img6 box3_img7 box3_img8 box3_img9";
+}
+
+.box3_img1 {
+	grid-area: box3_img1;
+}
+
+.box3_img2 {
+	grid-area: box3_img2;
+}
+
+.box3_img3 {
+	grid-area: box3_img3;
+}
+
+.box3_img4 {
+	grid-area: box3_img4;
+}
+
+.box3_img5 {
+	grid-area: box3_img5;
+}
+
+.box3_img6 {
+	grid-area: box3_img6;
+}
+
+.box3_img7 {
+	grid-area: box3_img7;
+}
+
+.box3_img8 {
+	grid-area: box3_img8;
+}
+
+.box3_img9 {
+	grid-area: box3_img9;
+}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<h1>Bildercollage von Miriam Gnadlinger</h1>
+	</header>
+
+	<main id="content"></main>
+	<div id="row"></div>	
+</body>
+
+</html>

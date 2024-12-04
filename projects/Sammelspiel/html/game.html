@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sprite Game</title>
+	<link rel="stylesheet" href="../style/spritegame.css">
+	<script src="../javascript/spritegame_game.js" defer></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+
+	<h1 id="gameName">Hunt the Rabbits</h1>
+
+	<div id="score">
+		<p id="scoreText">0 Punkte</p>
+	</div>
+
+	<div id="surface">
+		<div id="player">
+			<img id="spriteImg" src="../img/sprite_wolf.png" alt="sprite" />
+		</div>
+
+		<div id="rabbit">
+			<img class="itemImg" src="../img/Rabbit.png" alt="rabbit">
+		</div>
+
+		<div id="mushroom">
+			<img class="itemImg" src="../img/mushroom.png" alt="mushroom">
+		</div>
+
+		<div id="bullet">
+			<img class="itemImg" src="../img/Bullet (2).png" alt="bullet">
+		</div>
+	</div>
+
+	<div id="timer">
+		<p id="time">01:00</p>
+	</div>
+
+
+	<div id="box">
+
+		<div id="startGameContent">
+
+			<p>In this fast-paced game, you're tasked with catching as many rabbits as possible within a minute.
+				Navigate the forest as a swift wolf using the arrow keys. Chase down the rabbits. How many rabbits can you catch before time runs out? <br>
+				Test your skills in this adrenaline-fueled chase!
+			</p>
+		
+		</div>
+
+
+		<div class="next">
+			<img src="../img/returnButton.png" alt="PlayButton" class="icon" onclick="next()">
+		</div>
+
+
+	</div>
+
+
+</body>
+
+</html>
