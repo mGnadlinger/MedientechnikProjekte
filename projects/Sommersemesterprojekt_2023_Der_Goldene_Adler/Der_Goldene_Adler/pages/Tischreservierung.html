@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Tischreservierung - Der Goldene Adler</title>
+	<meta name="description" content="">
+	<meta name="author" content="Name">
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+	<!-- Navigationsleiste mit Dropdowneffekt -->
+	<input type="checkbox" id="toggle">
+
+	<nav>
+		<label class="navbar-toggler" for="toggle">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</label>
+
+		<ul class="nav-list">
+			<li class="dropdown">
+				<a href="Essen_Trinken.html" class="dropbtn nav-link">Essen und Trinken</a>
+				<div class="dropdown-content">
+					<a href="Essen_Trinken.html#speisekarte">Speisekarte</a>
+					<a href="Essen_Trinken.html#veggiekarte">Veggie Karte</a>
+					<a href="Essen_Trinken.html#weinkeller">Weinkeller</a>
+				</div>
+			</li>
+
+			<li class="nav-item"><a href="Tischreservierung.html" class="nav-link">Tischreservierung</a>
+			<li class="nav-item"><a href="Zimmer.html" class="nav-link"> Zimmer</a></li>
+			<li class="nav-item"><a href="Jobs.html" class="nav-link"> Jobs</a></li>
+			<li class="nav-item"><a href="#footer" class="nav-link"> Kontakt</a></li>
+
+
+		</ul>
+		<ul>
+			<li id="logo"><a href="../index.html">DER GOLDENE ADLER</a></li>
+		</ul>
+
+	</nav>
+
+	<main id="table_reservation">
+		<h2> Tischreservierung </h2>
+		<p> Bei Reservierungen für mehr als 10 Personen bitten wir um eine telefonische Reservierung
+			<a href="tel:+430676821271629">+43 0676 82127162</a>
+		</p>
+	</main>
+
+	<!-- Formular zum Reservieren eines Tisches -->
+
+	<div id="content_tischreservierung">
+
+		<form>
+			<label for="name">Name:</label><br>
+			<input type="text" class="form_items" name="name" id="name"><br>
+			<label for="email">E-mail Adresse:</label><br>
+			<input type="email" class="form_items" name="email" id="email"><br>
+			<label for="telefon">Telefonnummer:</label><br>
+			<input type="tel" class="form_items" name="telefon" id="telefon"><br>
+			<label for="datum">Datum:</label><br>
+			<input type="date" class="form_items" name="datum" id="datum"><br>
+			<label for="uhrzeit">Uhrzeit:</label><br>
+			<input type="time" class="form_items" name="uhrzeit" id="uhrzeit"><br>
+			<label for="Paz">Personenanzahl:</label><br>
+			<input type="text" class="form_items" name="Persondenanzahl" id="Paz"><br><br>
+
+			<label for="anmerkungen">Weiter Anmerkungen und Wünsche</label><br>
+			<textarea name="anmerkungen" style="width: 98%; height: 10%;" id="anmerkungen"></textarea><br><br>
+
+
+			<input type="submit" value="Senden">
+		</form>
+
+		<img src="../img/Unbenannt-1.jpg" class="image_table" alt="Resturant Tische und Tischgedeckbei Feier">
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="footercontent">
+			<h3>Öffnungszeiten</h3>
+			<p><b>Restaurant</b></p>
+			<p>Montag und Mittwoch bis Sonntag</p>
+			<p>Dienstag ist Ruhetag</p>
+			<p><b>Hotel</b></p>
+			<p>Montag bis Sonntag </p>
+		</div>
+
+		<div class="footercontent">
+			<h3>Standort</h3>
+			<p>Au 27</p>
+			<p>4550 Kremsmünster</p>
+
+			<p><a href="#">Impressum und Datenschutzerklärung</a></p>
+		</div>
+
+		<div class="footercontent">
+			<h3>Kontakt</h3>
+			<p>Miriam Gnadlinger</p>
+			<p>+43 676 821271629</p>
+			<p>office@dergoldeneadler.at</p>
+			<p><a href="#"> <img src="../img/Icons/icons8-facebook-neu-50.png" alt="Facebook"></a>
+				<a href="#"> <img src="../img/Icons/icons8-instagram-50.png" alt="Instagram"></a>
+				<a href="#"> <img src="../img/Icons/icons8-twitter-50.png" alt="Twitter"></a>
+				<a href="#"> <img src="../img/Icons/icons8-youtube-play-50.png" alt="YouTube"></a>
+			</p>
+		</div>
+
+		<div class="footercontent">
+			<p><a href="../index.html">Home</a></p>
+			<p><a href="Essen_Trinken.html">Essen und Trinken</a></p>
+			<p> <a href="Tischreservierung.html">Tischreservierung</a></p>
+			<p> <a href="Zimmer.html"> Zimmer</a></p>
+			<p> <a href="Jobs.html"> Jobs</a></p>
+
+			<div class="search-container">
+				<input type="text" placeholder="Suchen" name="search">
+			</div>
+		</div>
+
+
+
+	</footer>
+
+
+</body>

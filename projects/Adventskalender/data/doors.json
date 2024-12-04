@@ -1,0 +1,362 @@
+[
+  {
+    "day": 1,
+    "quote": "Des Jahres Hektik schwindet, und Ruhe endlich Einkehr findet. Die Tage können kaum schöner sein – als Weihnachten zu Hause im Kerzenschein.",
+    "quiz": {
+      "question": "Aus der Weihnachtsbäckerei: Was ist Zimt?",
+      "answers": [
+        "Zimt ist die Rinde des Zimtbaumes",
+        "Zimt sind die Früchte der Zimtpflanze",
+        "Zimt sind die Wurzeln des Zimtstrauches"
+      ],
+      "correctAnswer": "Zimt ist die Rinde des Zimtbaumes",
+      "correctAnswerSentence": "Zimt ist die getrocknete Rinde des Zimtbaumes, einer Pflanze aus den Tropen und Subtropen, besonders Sri Lanka."
+    },
+    "daysUntilChristmas": 23
+  },
+  {
+    "day": 2,
+    "quote": "Die besinnliche Zeit steckt voller Wunder, die darauf warten, entdeckt zu werden.",
+    "quiz": {
+      "question": "Was bedeuten Kreidestriche an der Wand, Strohhalme in der Krippe und niedergebrannte Kerzen?",
+      "answers": [
+        "Es sind Symbole für die 3 Könige",
+        "Sie zeigen die Tage bis Weihnachten an",
+        "Sie erinnern an die Hirten in der Weihnachtsgeschichte"
+      ],
+      "correctAnswer": "Sie zeigen die Tage bis Weihnachten an",
+      "correctAnswerSentence": "Diese Methoden wurden früher genutzt, um die Tage bis Weihnachten zu zählen. Kerzen gehören zum Adventskranz, Kreidestriche dienten als Countdown, und Stroh in der Krippe symbolisierte Vorbereitung."
+    },
+    "daysUntilChristmas": 22
+  },
+  {
+    "day": 3,
+    "quote": "Nichts ist vergleichbar, mit dem Gefühl, an Weihnachten in die Heimat zu fahren.",
+    "quiz": {
+      "question": "Nikolaus oder Weihnachtsmann: Woran erkennst du den Unterschied?",
+      "answers": [
+        "An der Sackgröße",
+        "Am Glöckchen",
+        "An der Mütze"
+      ],
+      "correctAnswer": "An der Mütze",
+      "correctAnswerSentence": "Die Mütze macht den Unterschied: Der Nikolaus trägt eine Bischofsmütze, während der Weihnachtsmann eine rote Zipfelmütze hat."
+    },
+    "daysUntilChristmas": 21
+  },
+  {
+    "day": 4,
+    "quote": "An Weihnachten geht es um Beziehungen. Die wahren Geschenke sind Gefühle und gemeinsame Zeit. Danke für besinnliche Erinnerungen.",
+    "quiz": {
+      "question": "Wie lautete der Werbeslogan für die erste Lichterkette?",
+      "answers": [
+        "„Lichterketten: ungefährlich, rauchfrei, geruchlos“",
+        "„Lichterketten: innen und außen ein wahrer Hingucker“",
+        "„Lichterketten: leuchten wie der Stern von Betlehem“"
+      ],
+      "correctAnswer": "„Lichterketten: ungefährlich, rauchfrei, geruchlos“",
+      "correctAnswerSentence": "Der erste Werbeslogan lautete „ungefährlich, rauchfrei, geruchlos“ – eine bahnbrechende Innovation für Haushalte mit Strom."
+    },
+    "daysUntilChristmas": 20
+  },
+  {
+    "day": 5,
+    "quote": "Am Himmel leuchten die Sterne so hell und so klar, ich wünsch dir ein frohes Fest und ein gutes neues Jahr!",
+    "quiz": {
+      "question": "Weihnachten als Kirchenfest – wer war Papst Julius I.?",
+      "answers": [
+        "Münzmeister",
+        "Kesselflicker",
+        "Latrinenreiniger"
+      ],
+      "correctAnswer": "Latrinenreiniger",
+      "correctAnswerSentence": "Papst Julius I. ist Schutzpatron der Latrinenreiniger – ein oft übersehener Aspekt seiner Heiligkeit."
+    },
+    "daysUntilChristmas": 19
+  },
+  {
+    "day": 6,
+    "quote": "Die schönsten Weihnachtsgeschenke sind die Stunden mit den Menschen, die man liebt.",
+    "quiz": {
+      "question": "Wozu diente der Weihnachtsmarkt im Mittelalter?",
+      "answers": [
+        "Als unterhaltsames Spektakel",
+        "Zur Versorgung vor dem Winter",
+        "Um Spenden für die Armen zu sammeln"
+      ],
+      "correctAnswer": "Zur Versorgung vor dem Winter",
+      "correctAnswerSentence": "Weihnachtsmärkte waren im Mittelalter praktische Märkte, um sich vor dem Winter mit Vorräten einzudecken."
+    },
+    "daysUntilChristmas": 18
+  },
+  {
+    "day": 7,
+    "quote": "Zum Brief langt es nicht; das ist schmerzlich. Mein Weihnachtsgruß ist kurz, dafür herzlich.",
+    "quiz": {
+      "question": "Warum war die Kirche gegen den Weihnachtsbaum?",
+      "answers": [
+        "Angst vor Zimmerbränden",
+        "Weil er als heidnisch galt",
+        "Angst vor Plünderungen der Wälder"
+      ],
+      "correctAnswer": "Weil er als heidnisch galt",
+      "correctAnswerSentence": "Die Kirche hatte Angst, dass ihre Wälder durch Baumdiebstahl geplündert würden – der Weihnachtsbaum war damals ein heidnisches Symbol."
+    },
+    "daysUntilChristmas": 17
+  },
+  {
+    "day": 8,
+    "quote": "Weihnachten ist, wenn die besten Geschenke am Tisch sitzen und nicht unterm Baum liegen.",
+    "quiz": {
+      "question": "Warum kam der Heilige Nikolaus 325 Tage ins Gefängnis?",
+      "answers": [
+        "Er war Christ",
+        "Er hat einen kirchlichen Würdenträger geohrfeigt",
+        "Er hat den Glauben öffentlich verteidigt"
+      ],
+      "correctAnswer": "Er hat einen kirchlichen Würdenträger geohrfeigt",
+      "correctAnswerSentence": "325 ohrfeigte Nikolaus einen Würdenträger und musste dafür ins Gefängnis – ein Zeichen seines feurigen Temperaments."
+    },
+    "daysUntilChristmas": 16
+  },
+  {
+    "day": 9,
+    "quote": "Weihnachten ist keine Jahreszeit. Es ist ein Gefühl.",
+    "quiz": {
+      "question": "Warum brennt in Griechenland Heiligabend ein Weihnachtsfeuer?",
+      "answers": [
+        "Um die Heilige Familie zu wärmen",
+        "Zum Schutz vor Kobolden",
+        "Als Licht für die Weisen aus dem Morgenland"
+      ],
+      "correctAnswer": "Zum Schutz vor Kobolden",
+      "correctAnswerSentence": "Das Feuer schützt vor den Kalikanzari, griechischen Weihnachtskobolden, und wärmt das Christkind."
+    },
+    "daysUntilChristmas": 15
+  },
+  {
+    "day": 10,
+    "quote": "Die schönsten Weihnachtsgeschenke sind die Stunden mit den Menschen, die man liebt.",
+    "quiz": {
+      "question": "Was sind Nelken?",
+      "answers": [
+        "Kapseln der Pfingst-Nelken",
+        "Blütenknospen des Gewürznelken-Baumes",
+        "Früchte der Heide-Nelken"
+      ],
+      "correctAnswer": "Blütenknospen des Gewürznelken-Baumes",
+      "correctAnswerSentence": "Nelken sind die getrockneten Blütenknospen des Gewürznelken-Baumes, der besonders in Madagaskar und Sri Lanka wächst."
+    },
+    "daysUntilChristmas": 14
+  },
+  {
+    "day": 11,
+    "quote": "Weihnachten ist jener stille Moment, in dem unsere Seele das Herz berührt.",
+    "quiz": {
+      "question": "Warum essen wir Heiligabend Gänsebraten?",
+      "answers": [
+        "Wegen Karl dem Großen",
+        "Wegen Napoleon",
+        "Wegen Queen Elisabeth I."
+      ],
+      "correctAnswer": "Wegen Queen Elisabeth I.",
+      "correctAnswerSentence": "Queen Elisabeth I. aß an Heiligabend 1588 Gans, als sie vom Sieg über die spanische Armada erfuhr – das machte die Gans zum Weihnachtsessen."
+    },
+    "daysUntilChristmas": 13
+  },
+  {
+    "day": 12,
+    "quote": "Weihnachten ist, wenn die besten Geschenke am Tisch sitzen und nicht unterm Baum liegen.",
+    "quiz": {
+      "question": "Warum war Lametta früher so beliebt?",
+      "answers": [
+        "Es sollte Eiszapfen symbolisieren",
+        "Es war ein Statussymbol",
+        "Es diente als Weihnachtsgeschenk"
+      ],
+      "correctAnswer": "Es sollte Eiszapfen symbolisieren",
+      "correctAnswerSentence": "Lametta wurde erfunden, um mit seinen glänzenden Fäden Eiszapfen zu symbolisieren."
+    },
+    "daysUntilChristmas": 12
+  },
+  {
+    "day": 13,
+    "quote": "Zu Weihnachten empfinden wir besonders stark, wie eng wir in der Familie zusammengehören und was wir ihr verdanken.",
+    "quiz": {
+      "question": "Woher hat der Spekulatius seinen Namen?",
+      "answers": [
+        "Vom lateinischen speculum: Spiegel",
+        "Vom lateinischen speculare: beobachten",
+        "Vom lateinischen specula: Hoffnungsschimmer"
+      ],
+      "correctAnswer": "Vom lateinischen speculum: Spiegel",
+      "correctAnswerSentence": "Spekulatius kommt von „speculum“, da die Gebäckformen spiegelverkehrt geschnitzt werden."
+    },
+    "daysUntilChristmas": 11
+  },
+  {
+    "day": 14,
+    "quote": "Zum Fest der Liebe wünsche ich mir nichts sehnlicher, als es mit dir zu verbringen.",
+    "quiz": {
+      "question": "Wo stehen die Worte: „Es begab sich aber zu der Zeit…“",
+      "answers": [
+        "Lukasevangelium",
+        "Johannesevangelium",
+        "Matthäusevangelium"
+      ],
+      "correctAnswer": "Lukasevangelium",
+      "correctAnswerSentence": "Diese Worte stehen im Lukasevangelium, das die Geburt Jesu und die Verkündigung der Hirten beschreibt."
+    },
+    "daysUntilChristmas": 10
+  },
+  {
+    "day": 15,
+    "quote": "Wahrer Reichtum liegt nicht in teuren Geschenken, sondern einem guten und ehrlichen Herzen.",
+    "quiz": {
+      "question": "Welcher Christmassong ist das am häufigsten gecoverte Lied der Welt?",
+      "answers": [
+        "Jingle Bells",
+        "White Christmas",
+        "Let it Snow"
+      ],
+      "correctAnswer": "White Christmas",
+      "correctAnswerSentence": "\"White Christmas\" mit über 500 Neuaufnahmen ist der meistgecoverte Song aller Zeiten."
+    },
+    "daysUntilChristmas": 9
+  },
+  {
+    "day": 16,
+    "quote": "Je mehr Freude wir anderen Menschen machen, desto mehr Freude kehrt ins eigene Herz zurück.",
+    "quiz": {
+      "question": "Woher hat das „Weihnachtsessen“ seinen Ursprung?",
+      "answers": [
+        "Im alten Rom",
+        "Im Mittelalter",
+        "Im viktorianischen England"
+      ],
+      "correctAnswer": "Im Mittelalter",
+      "correctAnswerSentence": "Das Weihnachtsessen hat seinen Ursprung im Mittelalter, als viele zum ersten Mal zur Familie zurückkehrten und gemeinsam feierten."
+    },
+    "daysUntilChristmas": 8
+  },
+  {
+    "day": 17,
+    "quote": "In der Geborgenheit der Familie Weihnachten zu feiern, ist in der heutigen Zeit wohl das schönste aller Geschenke.",
+    "quiz": {
+      "question": "Warum war Lametta früher so beliebt?",
+      "answers": [
+        "Es sollte Eiszapfen symbolisieren",
+        "Es war ein Statussymbol",
+        "Es diente als Weihnachtsgeschenk"
+      ],
+      "correctAnswer": "Es sollte Eiszapfen symbolisieren",
+      "correctAnswerSentence": "Lametta wurde erfunden, um mit seinen glänzenden Fäden Eiszapfen zu symbolisieren."
+    },
+    "daysUntilChristmas": 7
+  },
+  {
+    "day": 18,
+    "quote": "Es muss von Herzen kommen, was auf Herzen wirken soll.",
+    "quiz": {
+      "question": "Worum geht es im Lied „Drummer Boy“?",
+      "answers": [
+        "Ein Junge bekommt eine Trommel geschenkt",
+        "Ein Junge schenkt dem Jesuskind seine Musik",
+        "Es handelt von einem historischen Trommler"
+      ],
+      "correctAnswer": "Ein Junge schenkt dem Jesuskind seine Musik",
+      "correctAnswerSentence": "Ein armer Junge schenkt dem Jesuskind seine Musik, weil er sich kein materielles Geschenk leisten kann."
+    },
+    "daysUntilChristmas": 6
+  },
+  {
+    "day": 19,
+    "quote": "Die wahre Bedeutung von Weihnachten ist Liebe und Hoffnung.",
+    "quiz": {
+      "question": "Warum war der Stern von Bethlehem so wichtig?",
+      "answers": [
+        "Er führte die Hirten zur Krippe",
+        "Er zeigte den Weg zu Jesus für die Heiligen Drei Könige",
+        "Er kündigte das Ende der Welt an"
+      ],
+      "correctAnswer": "Er zeigte den Weg zu Jesus für die Heiligen Drei Könige",
+      "correctAnswerSentence": "Der Stern von Bethlehem führte die Heiligen Drei Könige zu Jesus in der Krippe."
+    },
+    "daysUntilChristmas": 5
+  },
+  {
+    "day": 20,
+    "quote": "Der wahre Zauber von Weihnachten liegt in den kleinen Gesten.",
+    "quiz": {
+      "question": "Wann begannen die ersten Weihnachtsmärkte?",
+      "answers": [
+        "Im Mittelalter",
+        "Im 18. Jahrhundert",
+        "Im 20. Jahrhundert"
+      ],
+      "correctAnswer": "Im Mittelalter",
+      "correctAnswerSentence": "Weihnachtsmärkte begannen im Mittelalter als einfache Märkte zum Verkauf von Vorräten für den Winter."
+    },
+    "daysUntilChristmas": 4
+  },
+  {
+    "day": 21,
+    "quote": "Frohe Weihnachten! Möge dein Herz erleuchtet sein und du Liebe finden, wo immer du bist.",
+    "quiz": {
+      "question": "Wann wurde der erste Weihnachtsbaum geschmückt?",
+      "answers": [
+        "Im 16. Jahrhundert",
+        "Im 17. Jahrhundert",
+        "Im 19. Jahrhundert"
+      ],
+      "correctAnswer": "Im 16. Jahrhundert",
+      "correctAnswerSentence": "Der erste Weihnachtsbaum wurde im 16. Jahrhundert in Deutschland geschmückt."
+    },
+    "daysUntilChristmas": 3
+  },
+  {
+    "day": 22,
+    "quote": "An Weihnachten ist die Liebe, die du schenkst, das wertvollste Geschenk.",
+    "quiz": {
+      "question": "Welche traditionelle Farbe hat der Weihnachtsbaum?",
+      "answers": [
+        "Rot",
+        "Grün",
+        "Weiß"
+      ],
+      "correctAnswer": "Grün",
+      "correctAnswerSentence": "Der Weihnachtsbaum ist grün, da er als Symbol für das Leben während der kalten Wintermonate steht."
+    },
+    "daysUntilChristmas": 2
+  },
+  {
+    "day": 23,
+    "quote": "Die Magie von Weihnachten lässt sich nicht in Worte fassen, sie wird nur gefühlt.",
+    "quiz": {
+      "question": "Welche Frucht ist ein typisches Weihnachtsgebäck?",
+      "answers": [
+        "Äpfel",
+        "Birnen",
+        "Feigen"
+      ],
+      "correctAnswer": "Äpfel",
+      "correctAnswerSentence": "Äpfel gehören zu den typischen Weihnachtsfrüchten und werden häufig in Gebäck verarbeitet."
+    },
+    "daysUntilChristmas": 1
+  },
+  {
+    "day": 24,
+    "quote": "Die wahre Freude von Weihnachten liegt im Geben und Teilen.",
+    "quiz": {
+      "question": "Wie wurde der Brauch des Weihnachtsmannes populär?",
+      "answers": [
+        "Durch die Coca-Cola-Werbung",
+        "Durch amerikanische Weihnachtsgeschichten",
+        "Durch englische Lieder"
+      ],
+      "correctAnswer": "Durch die Coca-Cola-Werbung",
+      "correctAnswerSentence": "Der moderne Weihnachtsmann wurde durch eine Coca-Cola-Werbung in den 1930er Jahren populär gemacht."
+    },
+    "daysUntilChristmas": 0
+  }
+]

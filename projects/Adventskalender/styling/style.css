@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Christmas Squad';
+    src: url('../fonts/Christmas Squad.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 320%;
+}
+
+h2 {
+    font-family: "Christmas Squad", serif;
+    font-size: 400%;
+    text-align: center;
+    margin: -1.3vw 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#parent {
+    display: grid;
+    width: 100%;
+    height: 65vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    margin-top: 3vw;
+}
+
+#parent div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+/* CSS für die Tür-Animation */
+@keyframes doorAnimationForward {
+    0% {
+        position: fixed;
+    }
+    50% {
+        background: #cd0724;
+        color: #cd0724;
+    }
+    100% {
+        transform: scale(40);
+        z-index: 100;
+        background: #cd0724;
+        color: #cd0724;
+    }
+}
+
+@keyframes doorAnimationBackward {
+    0% {
+        transform: scale(40);
+        z-index: 100;
+        background: #cd0724;
+        color: #cd0724;
+    }
+    50% {
+        background: #cd0724;
+        color: #cd0724;
+    }
+    100% {
+        position: fixed;
+        transform: scale(1);
+    }
+}
+
+.door {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 6vw;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.door:hover {
+    box-shadow: 0 12px 20px rgba(255, 255, 255, 0.8);
+}
+
+.door h3 {
+    text-align: center;
+}
+
+.overlay {
+    height: 140vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #cd0724;
+    display: none;
+    transition: opacity 1s ease, z-index 0s linear 1s;
+    color: black;
+    margin-bottom: 0;
+}
+
+.doorContent {
+    background: white;
+    margin: 0 10vw;
+    height: 100%;
+    font-size: 150%;
+}
+
+#header {
+    background-image: url("../img/tree.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+    align-content: end;
+    padding-bottom: 2vw;
+    margin-bottom: 2vw;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.headerdiv1 {
+    grid-area: 1 / 1 / 2 / 3;
+    padding-left: 2vw;
+    font-size: 200%;
+    align-content: center;
+    color: white;
+}
+
+.doorContent .gsap_scrollReveal h2 {
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    align-content: end;
+    grid-area: 3 / 1 / 5 / 8;
+}
+
+.headerdiv3 {
+    grid-area: 2 / 1 / 2 / 2;
+    width: 5vw;
+    height: 5vw;
+    margin: 0 1vw;
+    display: flex;
+}
+
+.headerdiv3 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.7s all ease;
+}
+
+.headerdiv3 img:hover {
+    transform: scale(1.1) translate(-10%);
+
+}
+
+
+#arrow {
+    background: #cd0724;
+    width: 100%;
+    height: 100%;
+}
+
+
+#section2 {
+    margin-bottom: 3vw;
+}
+
+#section2 p b {
+    color: #cd0724;
+    font-weight: bolder;
+}
+
+.doorContent .gsap_scrollReveal p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#section4 p {
+    font-size: 140%;
+}
+
+#section4 {
+    background: #fff;
+    margin: 4vw auto 1vw;
+    width: 40vw;
+    border: solid rgb(22, 91, 51) 1px;
+    border-radius: 15px;
+    padding: 2vw;
+}
+
+#section4 h3 {
+    text-align: center;
+    color: #cd0724;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.answer {
+    padding: 1vw;
+    background: rgba(22, 91, 51, 0.6);
+    border: 1px solid #358f60;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.answer:hover {
+    background: rgba(22, 91, 51, 0.8);
+    transform: scale(1.02);
+}
+
+.answer.correct {
+    background: #c8e6c9;
+    border-color: #66bb6a;
+}
+
+.answer.incorrect {
+    background: #ffcdd2;
+    border-color: #e57373;
+}
